@@ -11,26 +11,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
-  <style>
-    .mandatory {
-      color: red;
-    }
-    .form-control {
-      margin-bottom: 10px;
-    }
-    .rating i.fa-star {
-            color: yellow;
-            cursor: pointer;
-        }
-        .table tbody tr:nth-child(2n) {
-            background-color: rgb(133, 141, 133);
-        }
-    .sb{
-        border: none;
-        background-color: rgb(229, 238, 229);
-        padding: 0.5rem;
-    }
-  </style>
 </head>
 <body>
   <div class="container">
@@ -50,7 +30,7 @@
           </div>
         </div>
         <div class="col-lg-6">
-          <br><label for="email"><b>Email<span class="mandatory">*</span></b></label>
+          <label for="email"><b>Email<span class="mandatory">*</span></b></label>
           <input type="email" class="form-control" id="email">
         </div>
       </div>
@@ -147,8 +127,7 @@
       </table>
       
       <br><h3>Additional Comments or Suggestions</h3>
-      <textarea class="form-control" rows="4"></textarea>
-      <hr>
+      <textarea class="form-control ta" rows="4"></textarea>
       <button type="submit" class="sb">Submit</button>
     </div>
   </div>
